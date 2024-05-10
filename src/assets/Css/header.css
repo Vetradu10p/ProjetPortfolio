@@ -9,20 +9,24 @@
 
 .Headercontainer a:link {
     color: #098091;
+    text-decoration: none;
 }
 
 .Headercontainer a:visited {
     color: #098091;
+    text-decoration: none;
 }
 
 .Headercontainer a:hover {
     color: white;
+    text-decoration: underline;
 }
 
 .Headercontainer ul {
     display: flex;
     gap: 20px;
     font-size: x-large;
+    list-style: none;
     text-decoration: none;
 }
 
