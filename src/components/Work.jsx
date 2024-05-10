@@ -29,7 +29,7 @@ export default function Work() {
   return (
     <div>
         <h2 id='Work'>Mes Projets</h2>
-        <p>Voici les projets que j'ai réalisé</p>
+        <p>Voici les projets que j'ai réalisés</p>
         <div>
           {
             data?.map((elt, index)=> <Card key={index} element={elt}/>)

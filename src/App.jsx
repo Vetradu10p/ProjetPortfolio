@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router.jsx'
+import ReactModal from 'react-modal';
+
+ReactModal.setAppElement('#root');
+
 
 function App() {
   const [count, setCount] = useState(0)

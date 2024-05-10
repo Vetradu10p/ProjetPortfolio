@@ -1,8 +1,10 @@
 import React from 'react'
 import '@/assets/Css/button.css'
 
-export default function Button({children, className}) {
+export default function Button({onClick, children, className}) {
   return (
-    <div className={ className }>{children}</div>
+    <button className={ className } onClick={onClick}>
+      {children}
+    </button>
   )
 }

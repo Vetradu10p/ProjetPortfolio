@@ -1,15 +1,38 @@
 .Button {
-    background-color: #171717;
+    background-color: #27272a;
     color: #098091;
     border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: x-large;
+}
+
+.Button:hover {
+    background-color: whitesmoke;
+    color: #098091;
+    border: solid;
+    border-radius: 5px;
     display: inline-block;
     padding: 10px 20px;
     font-size: x-large;
 }
 
 .ButtonSpecial {
+    background-color: whitesmoke;
     color: #098091;
     border: solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: x-large;
+}
+
+.ButtonSpecial:hover {
+    background-color: #27272a;
+    color: #098091;
+    border: solid;
+    border-radius: 5px;
     display: inline-block;
     padding: 10px 20px;
     font-size: x-large;
