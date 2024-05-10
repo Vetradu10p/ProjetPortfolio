@@ -7,6 +7,18 @@
     color: #098091;
 }
 
+.Headercontainer a:link {
+    color: #098091;
+}
+
+.Headercontainer a:visited {
+    color: #098091;
+}
+
+.Headercontainer a:hover {
+    color: white;
+}
+
 .Headercontainer ul {
     display: flex;
     gap: 20px;

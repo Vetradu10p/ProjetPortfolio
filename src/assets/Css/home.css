@@ -1,0 +1,30 @@
+.HomeContainer {
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 150px;
+}
+
+.imgHomeContainer img {
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.H1Home {
+    margin-top: 7vh;
+    font-size: xx-large;
+}
+
+.PHome {
+    margin-top: 10vh;
+    font-size: x-large;
+}
+
+.ButtonContainer {
+    margin-top: 5vh;
+    display: flex;
+    gap: 20px;
+}

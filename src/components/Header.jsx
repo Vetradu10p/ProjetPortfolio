@@ -1,17 +1,19 @@
 import React from 'react'
 import '@/assets/Css/header.css'
+import LogoPortfolio from '@/assets/Images/LogoPortfolio.avif'
+
 
 export default function Header() {
   return (
     <div className='Headercontainer'>
-        <img src="" alt="logo" />
+        <img src={LogoPortfolio} alt="logo" />
         <nav>
             <ul>
-                <li>Accueil</li>
-                <li>Services</li>
-                <li>Projets</li>
-                <li>Temoignages</li>
-                <li className='lastli'>Contact</li>
+                <li><a href="#Home">Accueil</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Work">Projets</a></li>
+                <li><a href="#Testimonial">Temoignages</a></li>
+                <li className='lastli'><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </div>

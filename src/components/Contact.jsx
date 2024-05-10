@@ -8,7 +8,7 @@ export default function Contact() {
             <img src="" alt="" />
         </div>
         <div>
-            <h2>Travaillez avec moi</h2>
+            <h2 id='Contact'>Travaillez avec moi</h2>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
             <>
                 <img src="" alt="" />

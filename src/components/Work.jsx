@@ -28,7 +28,7 @@ export default function Work() {
 
   return (
     <div>
-        <h2>Mes Projets</h2>
+        <h2 id='Work'>Mes Projets</h2>
         <p>Voici les projets que j'ai réalisé</p>
         <div>
           {

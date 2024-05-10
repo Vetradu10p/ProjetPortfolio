@@ -1,0 +1,16 @@
+.Button {
+    background-color: #171717;
+    color: #098091;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: x-large;
+}
+
+.ButtonSpecial {
+    color: #098091;
+    border: solid;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: x-large;
+}
