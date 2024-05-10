@@ -23,7 +23,7 @@
     display: flex;
     gap: 20px;
     font-size: x-large;
-    list-style: none;
+    text-decoration: none;
 }
 
 .lastli {
