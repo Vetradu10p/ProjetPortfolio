@@ -1,26 +1,20 @@
 import React, { useState } from 'react';
-import Button from '@/components/Button'
-import ReactModal from 'react-modal';
+import Button from '@/components/Button';
+import Modal from '@/components/Modal';
 
-import imgHome from '@/assets/Images/imgHome.jpg'
-import '@/assets/Css/home.css'
-import '@/assets/Css/button.css'
-import '@/assets/Css/modal.css'
-
+import imgHome from '@/assets/Images/imgHome.jpg';
+import '@/assets/Css/home.css';
+import '@/assets/Css/button.css';
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
 
-  const OpenModal = () => {
+  const handleOpenModal = () => {
     setShowModal(true);
   }
 
-  const CloseModal = () => {
-    setShowModal(false); 
-  }
-
-  const handleProjectsClick = () => {
-    console.log("Mes projets ont été cliqués");
+  const handleCloseModal = () => {
+    setShowModal(false);
   }
 
   return (
@@ -29,23 +23,14 @@ export default function Home() {
         <h1 className='H1Home'>Je suis un développeur web doté d'un grand sens de l'humour et d'un esprit créatif !</h1>
         <p className='PHome'>Je suis un concepteur web passionné avec des années d'expérience dans la création de designs épurés et conviviaux. Je m'engage à fournir un travail de haute qualité qui répond aux besoins uniques de chaque client. Travaillons ensemble pour donner vie à votre vision en un rien de temps.</p>
         <div className='ButtonContainer'>
-        <Button className='Button' onClick={() => OpenModal()}>Mon histoire</Button>
-        <Button className='ButtonSpecial' onClick={() => handleProjectsClick()}>Mes projets</Button>
+          <Button className='Button' onClick={handleOpenModal}>Mon histoire</Button>
+          <a href='#Work' className='ButtonSpecial'>Mes projets</a>
         </div>
       </div>
       <div className='imgHomeContainer'>
         <img src={imgHome} alt="Photo de moi-même" />
       </div>
-      <ReactModal
-        isOpen={showModal}
-        contentLabel="onRequestClose Example"
-        onRequestClose={CloseModal}
-        className="Modal"
-        overlayClassName="Overlay"
-      >
-        <button onClick={CloseModal}>Fermer moi</button>
-        <p>Modal text!</p>
-      </ReactModal>
+      <Modal isOpen={showModal} closeModal={handleCloseModal} />
     </div>
   )
 }

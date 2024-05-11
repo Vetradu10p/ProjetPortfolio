@@ -2,10 +2,11 @@
     width: 60vw;
     height: 80vh;
     display: flex;
-    margin-top: 6vh;
+    margin-top: 16vh;
     margin-left: auto;
     margin-right: auto;
     gap: 150px;
+    scroll-margin-top: 15vh; 
 }
 
 .imgHomeContainer img {
@@ -14,17 +15,17 @@
 }
 
 .H1Home {
-    margin-top: 7vh;
-    font-size: xx-large;
+    margin-top: 5vh;
+    font-size: 40px;
 }
 
 .PHome {
-    margin-top: 10vh;
-    font-size: x-large;
+    margin-top: 6vh;
+    font-size: 30px;
 }
 
 .ButtonContainer {
-    margin-top: 5vh;
+    margin-top: 8vh;
     display: flex;
     gap: 20px;
 }

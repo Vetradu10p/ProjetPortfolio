@@ -1,4 +1,5 @@
 import React from 'react'
+import '@/assets/Css/modalContent.css'
 import imgHome from '@/assets/Images/imgHome.jpg'
 
 
