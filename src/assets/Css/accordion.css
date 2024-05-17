@@ -6,34 +6,49 @@
   .AccordionContainer {
     display: flex;
     align-items: flex-start;
-    margin-top: 125px;
+    margin-top: 100px;
   }
   
   .accordion {
-    width: 300px;
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px #ccc;
     border-radius: 5px;
     margin-top: 100px;
     margin-right: 20px;
   }
   
-  .accordion-item {
-    border-bottom: 1px solid #ccc;
+  .AccordionItem {
+    list-style: none;
   }
   
   .AccordionTitle {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     padding: 25px;
     cursor: pointer;
-    background-color: #f7f7f7;
+    background-color:#e7e7e7;
+    font-size: x-large;
+}
+
+.AccordionTitle:hover {
+    background-color: #27272a;
+    color: #098091;
   }
   
-  .AccordionTitle:hover {
-    background-color: #e7e7e7;
+  .AccordionTitle.active {
+    background-color: #27272a;
+    color: #098091;
   }
-  
-  .accordion-content {
+  .AccordionContent {
+    font-size: large;
+    border-radius: 15px;
     padding: 10px;
-    background-color: #fff;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    background-color: #27272a;
+    color: #098091;
   }
   
   .ImageContainer {

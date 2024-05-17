@@ -1,0 +1,70 @@
+
+
+.TestimonialCardContainer {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    margin: auto;
+    list-style: none;
+}
+
+.TestimonialCard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.TestimonialCard img {
+    width: 30%;
+    border-radius: 50px;
+    margin: 30px 0px 0px 30px
+}
+
+.TestimonialCard h3 {
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+}
+
+.TestimonialCard h4 {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(155, 155, 155);
+    font-size: larger;
+}
+
+.PTestimonialCard {
+    width: 90%;
+    margin-top: 25px;
+    font-size: large;
+}
+
+.ToggleButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27272a;
+    color: #098091;
+    border: solid #098091;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.ToggleButton:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: #098091;
+    border: solid #098091;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}

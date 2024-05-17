@@ -1,0 +1,19 @@
+.WorkContainer {
+    margin-top: 5px;
+    scroll-margin-top: 14vh; 
+}
+
+.Listework {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.WorkContainer h2 {
+    font-size: 35px;
+    margin: 70px 0px 40px 70px;
+}
+
+.PWork {
+    font-size: 20px;
+    margin: 0px 0px 80px 70px;
+}

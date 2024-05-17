@@ -19,20 +19,20 @@ const accordionData = [
 ];
 
 const AccordionItem = ({ title, content, icon, isOpen, onClick }) => (
-  <div className="AccordionItem">
-    <div className="AccordionTitle" onClick={onClick}>
+  <li className="AccordionItem">
+    <div className={`AccordionTitle ${isOpen ? 'active' : ''}`} onClick={onClick}>
       <i className={icon}></i> {title}
     </div>
     {isOpen && (
-      <div className="accordion-content">
+      <div className="AccordionContent">
         <p>{content}</p>
       </div>
     )}
-  </div>
+  </li>
 );
 
 const Accordion = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
@@ -42,7 +42,7 @@ const Accordion = () => {
 
   return (
     <div className="AccordionContainer">
-      <div className="accordion">
+      <ul className="accordion">
         {accordionData.map((item, index) => (
           <AccordionItem
             key={index}
@@ -53,7 +53,7 @@ const Accordion = () => {
             onClick={() => handleClick(index)}
           />
         ))}
-      </div>
+      </ul>
       {activeImage && (
         <div className="ImageContainer">
           <img src={activeImage} alt={`Image pour ${accordionData[activeIndex].title}`} />

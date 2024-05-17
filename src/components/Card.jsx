@@ -1,14 +1,16 @@
-import React, {useState} from 'react'
-import Button from '@/components/Button'
+import React from 'react';
+import '@/assets/Css/card.css';
 
 
-export default function Card({element}) {
-  return (
-    <div>
-        <img src={element.cover} alt={element.title} />
-        <h3>{element.title}</h3>
-        <p>{element.description}</p>
-        <Button>Voir projet</Button>
-    </div>
-  )
-}
+const Card = ({ element }) => (
+  <div className="Card">
+    <a href={element.url} target="_blank" rel="noopener noreferrer">
+      <img className='imgCard' src={element.cover} alt={element.title} />
+    </a>
+    <h3 className='H3Card'>{element.title}</h3>
+    <p className='PCard'>{element.description}</p>
+    <a className='ButtonCard' href={element.url} target="_blank" rel="noopener noreferrer">Voir le projet</a>
+  </div>
+);
+
+export default Card;

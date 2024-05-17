@@ -1,0 +1,21 @@
+[
+    {
+        "url":"https://vetradu10p.github.io/Openclassrooms-Booki/",
+        "cover": "./public/Assets/images/Html0.png",
+        "title": "HTML & CSS3",
+        "description": "J'ai créé la page d'accueil d'une agence de voyage."
+    },
+    
+    {
+        "url":"https://vetradu10p.github.io/Portfolio-sophie-bluel/index.html",
+        "cover": "./public/Assets/images/Javascript0.png",
+        "title": "JavaScript",
+        "description": "J'ai créé une page web dynamique."
+    },
+    {
+        "url":"https://main--stellar-pudding-321604.netlify.app/",
+        "cover": "./public/Assets/images/React0.png",
+        "title": "React.Js",
+        "description": "J'ai créé une application web de location immobilière."
+    }
+]

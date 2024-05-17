@@ -1,0 +1,47 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    background-color: seashell;
+}
+
+.imgCard {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.H3Card {
+    margin-top: 30px;
+}
+
+.PCard {
+    font-size: large;
+    margin-top: 5px;
+}
+
+.ButtonCard {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27272a;
+    color: #098091;
+    border: solid #098091;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.ButtonCard:hover {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: #098091;
+    border: solid #098091;
+    border-radius: 5px;
+}
