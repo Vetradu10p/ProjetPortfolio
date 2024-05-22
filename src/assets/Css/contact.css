@@ -1,0 +1,57 @@
+.ContactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.WriterContactContainer {
+    margin-top: 70px;
+}
+
+.TitleButton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoContactContainer {
+    margin-top: 30px;
+}
+
+.Linkedin {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.Instagram {
+    width: 26px;
+}
+
+.ImgContact {
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.logoContactContainer, .PContact {
+    margin-left: 70px;
+}
+
+.CvButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: #098091;
+    border: solid #098091;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.CvButton:hover {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #27272a;
+    color: #098091;
+    border: solid #098091;
+    border-radius: 5px;
+    text-decoration: none;
+}
