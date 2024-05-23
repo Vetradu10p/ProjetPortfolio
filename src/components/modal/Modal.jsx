@@ -7,7 +7,7 @@ import Instagram from '@/assets/Images/Instagram.png';
 
 
 
-import '@/assets/Css/modal.css';
+import '@/assets/Css/components/modal.css';
 
 const Modal = ({ isOpen, closeModal }) => {
   return (

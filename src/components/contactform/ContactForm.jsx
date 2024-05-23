@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import '@/assets/Css/contactForm.css';
+import '@/assets/Css/components/contactForm.css';
 
 
 

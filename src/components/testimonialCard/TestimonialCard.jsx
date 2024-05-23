@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TestimonialService from '@/_Service/Testimonial.service';
-import '@/assets/Css/testimonialCard.css';
+import '@/assets/Css/components/testimonialCard.css';
 
 export default function TestimonialCard() {
   const [expanded, setExpanded] = useState({});

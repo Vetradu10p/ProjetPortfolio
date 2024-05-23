@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import websiteImage from '@/assets/Images/Website.jpg'; 
 import Photography from '@/assets/Images/Photography.jpg'; 
-import '@/assets/Css/accordion.css';
+import '@/assets/Css/components/accordion.css';
 
 const accordionData = [
   {

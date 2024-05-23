@@ -3,8 +3,8 @@ import Button from '@/components/button/Button';
 import Modal from '@/components/modal/Modal';
 
 import imgHome from '@/assets/Images/imgHome.jpg';
-import '@/assets/Css/home.css';
-import '@/assets/Css/button.css';
+import '@/assets/Css/pages/home.css';
+import '@/assets/Css/components/button.css';
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
