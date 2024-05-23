@@ -61,3 +61,19 @@
     border-radius: 15px;
   }
   
+@media (max-width: 1024px) {
+  .AccordionContainer {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .AccordionContainer {
+    margin-top: 50px;
+  }
+
+
+  .accordion {
+    padding: 10px;
+  }
+}

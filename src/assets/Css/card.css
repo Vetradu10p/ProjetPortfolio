@@ -45,3 +45,25 @@
     border: solid #098091;
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+    .Card {
+        height: 570px;
+    }
+
+    .H3Card {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: xx-large;
+    }
+
+    .PCard {
+        font-size: x-large;
+        padding-left: 5px;
+    }
+
+    .ButtonCard {
+        margin-top: 5px;
+        font-size: x-large;
+    }
+}

@@ -12,3 +12,9 @@
     font-size: 20px;
     margin: 0px 0px 80px 70px;
 }
+
+@media (max-width: 1024px) {
+    .H2Testimonial {
+        margin-top: 20px;
+    }
+}

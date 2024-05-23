@@ -22,7 +22,7 @@
 }
 
 .Instagram {
-    width: 26px;
+    width: 25px;
 }
 
 .ImgContact {
@@ -54,4 +54,51 @@
     border: solid #098091;
     border-radius: 5px;
     text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .PContact {
+        margin-left: 40px;
+    }
+
+    .ImgContact {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ContactContainer {
+        gap: 20px;
+    }
+
+    .ImgContact {
+        width: 300px;
+        height: 500px;
+        margin-left: 75px;
+    }
+
+    .PContact {
+        margin-left: 25px;
+        font-size: larger;
+    }
+
+    .Linkedin {
+        width: 40px;
+    }
+
+    .Instagram {
+        width: 32px;
+    }
+
+    .PContact {
+        margin-top: 5px;
+    }
+
+    .logoContactContainer {
+        margin-top: 25px;
+    }
+
+    .TitleButton {
+        margin-top: -15px;
+    }
 }

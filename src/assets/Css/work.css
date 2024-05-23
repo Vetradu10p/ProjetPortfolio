@@ -17,3 +17,24 @@
     font-size: 20px;
     margin: 0px 0px 80px 70px;
 }
+
+@media (max-width: 1024px) {
+    .Listework {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .WorkContainer h2 {
+        margin-bottom: 35px;
+    }
+
+    .PWork {
+        margin-bottom: 50px;
+    }
+
+    .Listework {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+}

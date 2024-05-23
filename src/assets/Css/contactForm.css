@@ -55,3 +55,21 @@
     border-radius: 5px;
     text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    .NamemailContainer {
+        margin-top: 15px;
+    }
+
+    #message {
+        height: 150px;
+    }
+
+    .SubmitButton {
+        margin-top: 0px;
+    }
+}

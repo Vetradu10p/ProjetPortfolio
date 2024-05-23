@@ -68,3 +68,33 @@
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    .TestimonialCard {
+        width: 45vw;
+    }
+
+    .TestimonialCard h3 {
+        font-size: xx-large;
+    }
+
+    .TestimonialCard h4 {
+        font-size: x-large;
+    }
+
+    .PTestimonialCard {
+        font-size: x-large;
+    }
+
+    .ToggleButton {
+        font-size: x-large;
+    }
+
+    .ToggleButton:hover {
+        font-size: x-large;
+    }
+}

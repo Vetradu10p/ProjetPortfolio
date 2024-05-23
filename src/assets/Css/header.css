@@ -35,3 +35,15 @@
 .lastli {
     margin-right: 20px;
 }
+
+@media (max-width: 1024px) {
+    .Headercontainer {
+        height: 6vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .Headercontainer {
+        width: 110vw;
+    }
+}
