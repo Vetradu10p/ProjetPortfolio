@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import { RouterProvider } from 'react-router-dom'
-import { router } from './router.jsx'
-import ReactModal from 'react-modal';
-
-ReactModal.setAppElement('#root');
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PublicRouter from '@/pages/public/AppRouter.routes.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <RouterProvider router={router} />
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/*" element={<PublicRouter />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

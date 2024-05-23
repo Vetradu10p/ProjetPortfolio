@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '@/components/Button';
-import Modal from '@/components/Modal';
+import Button from '@/components/button/Button';
+import Modal from '@/components/modal/Modal';
 
 import imgHome from '@/assets/Images/imgHome.jpg';
 import '@/assets/Css/home.css';
