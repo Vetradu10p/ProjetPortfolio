@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from "@/components/Header.jsx"
-import Home from '@/components/Home'
 import Services from "@/components/Services"
 import Work from "@/components/Work"
 import Testimonial from "@/components/Testimonial"
@@ -12,7 +11,6 @@ export default function HomePage() {
     <div>
         <Header/>
         <div className="container">
-          <Home/>
           <Services/>
           <Work/>
           <Testimonial/>

@@ -1,15 +1,12 @@
 .ServicesContainer {
     display: flex;
-    flex-direction: column;
-    height: 92vh;
-    margin-top: 16vh;
-    scroll-margin-top: 8vh; 
+    justify-content: center;
+    width: 100%;
     background-color: #F5F5F5;
 }
 
 .WriterContainerServices {
    width: 60%;
-   margin: auto;
    padding: 20px;
 }
 
@@ -23,12 +20,12 @@
 
 @media (max-width: 1024px) {
     .ServicesContainer {
-        margin-top: 1vh;
-        height: 55vh;
+        margin-top: 10px;
+        height: auto;
     }
 
     .WriterContainerServices {
-        margin: 0;
+        margin: 20px;
     }
 }
 

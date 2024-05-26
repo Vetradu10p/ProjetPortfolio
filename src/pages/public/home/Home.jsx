@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import Button from '@/components/button/Button';
 import Modal from '@/components/modal/Modal';
+import Service from '@/components/service/Services';
+import Work from '@/components/work/Work';
+import Testimonial from '@/components/testimonial/Testimonial';
+import Contact from '@/components/contact/Contact';
 
 import imgHome from '@/assets/Images/imgHome.jpg';
 import '@/assets/Css/pages/home.css';
@@ -18,6 +22,7 @@ export default function Home() {
   }
 
   return (
+    <div className="bodyContainer">
     <div className='HomeContainer' id='Home'>
       <div className="description">
         <h1 className='H1Home'>Je suis un développeur web doté d'un grand sens de l'humour et d'un esprit créatif !</h1>
@@ -31,6 +36,20 @@ export default function Home() {
         <img src={imgHome} alt="Photo de moi-même" />
       </div>
       <Modal isOpen={showModal} closeModal={handleCloseModal} />
+    </div>
+      
+      <div className='serviceContainer'>
+        <Service />
+      </div>
+      <div className='workContainer'>
+        <Work />
+      </div>
+      <div className='testimonialContainer'>
+        <Testimonial />
+      </div>
+      <div className='contactContainer'>
+        <Contact />
+      </div>
     </div>
   )
 }

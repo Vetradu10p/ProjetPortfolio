@@ -60,10 +60,6 @@
     .PContact {
         margin-left: 40px;
     }
-
-    .ImgContact {
-        margin-left: 25px;
-    }
 }
 
 @media (max-width: 768px) {

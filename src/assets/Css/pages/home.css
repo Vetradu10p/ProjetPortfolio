@@ -1,64 +1,80 @@
 .HomeContainer {
-    width: 60vw;
+    width: 100%;
+    max-width: 1075px;
     height: auto;
     display: flex;
-    margin-top: 16vh;
+    margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
-    gap: 150px;
-    scroll-margin-top: 15vh; 
+    gap: 50px;
 }
 
-.imgHomeContainer img {
-    height: 80vh;
-    border-radius: 20px;
+.description {
+    max-width: 490px;
+    width: 100%;
 }
 
 .H1Home {
-    margin-top: 5vh;
+    margin-top: 60px;
     font-size: 40px;
 }
 
 .PHome {
-    margin-top: 6vh;
+    margin-top: 60px;
     font-size: 30px;
 }
 
 .ButtonContainer {
-    margin-top: 8vh;
+    margin-top: 100px;
     display: flex;
     gap: 20px;
 }
 
+.imgHomeContainer, .imgHomeContainer img {
+    width: 100%;
+    max-width: 540px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 1024px) {
     .HomeContainer {
-        margin-left: 25px;
-        margin-top: 7vh;
-        gap: 10px
+        margin-top: 10px;
+        justify-content: center;
+        gap: 25px
     }
 
-    .H1Home {
-        margin-top: 2vh;
+    .PHome {
+        margin-top: 40px;
     }
 
-    .PHome, .ButtonContainer {
-        margin-top: 3vh;
+    .ButtonContainer {
+        margin: 50px 0px 30px 0px;
     }
 }
 
 @media (max-width: 768px) {
     .HomeContainer {
-        margin-left: 20px;
+        margin-top: 60px;
         gap: 15px;
-        margin-top: 9vh;
+        flex-wrap: wrap;
     }
 
     .H1Home {
-        margin-top: 1vh;
+        margin-top: 0px;
         font-size: 35px;
     }
 
-    .PHome, .ButtonContainer {
-        margin-top: 2vh;
+    .PHome {
+        margin-top: 20px;
+    }
+
+    .ButtonContainer {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .imgHomeContainer img {
+        margin-top: 50px;
     }
 }
