@@ -6,7 +6,7 @@
 }
 
 .WriterContainerServices {
-   width: 60%;
+   width: 55%;
    padding: 20px;
 }
 
@@ -18,10 +18,19 @@
     font-size: 20px;
 }
 
+.AccordionContainer ul {
+    padding-left: 0;
+}
+
+@media (min-width: 1024px) {
+    .ServicesContainer {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 1024px) {
     .ServicesContainer {
-        margin-top: 10px;
-        height: auto;
+        margin: 0px;
     }
 
     .WriterContainerServices {
