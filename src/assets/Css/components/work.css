@@ -1,11 +1,14 @@
 .WorkContainer {
+    width: 100%;
+    max-width: 1440px;
     margin-top: 5px;
-    scroll-margin-top: 14vh; 
 }
 
 .Listework {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    padding-left: 10px;
 }
 
 .WorkContainer h2 {

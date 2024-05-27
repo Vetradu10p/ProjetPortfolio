@@ -22,15 +22,15 @@
     padding-left: 0;
 }
 
-@media (min-width: 1024px) {
-    .ServicesContainer {
-        justify-content: center;
-    }
+.ImageContainer {
+    width: 100%;
+    max-width: 600px;
 }
 
 @media (max-width: 1024px) {
     .ServicesContainer {
         margin: 0px;
+        justify-content: unset;
     }
 
     .WriterContainerServices {
@@ -40,13 +40,14 @@
 
 @media (max-width: 768px) {
     .ServicesContainer {
-        width: 110vw;
-        height: 70vh;
-        margin-top: 1vh;
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
     }
 
     .WriterContainerServices {
         margin: 0;
+        padding: 0;
     }
 
     .ImageContainer img {
