@@ -1,6 +1,5 @@
 import React from 'react'
-import ContactForm from '@/components/contactForm/ContactForm';
-
+import ContactForm from '../contactForm/ContactForm'
 
 import ImgContact from "@/assets/Images/Contact.jpg"
 import Linkedin from '@/assets/Images/Linkedin.png';
