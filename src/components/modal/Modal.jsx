@@ -5,10 +5,6 @@ import ImgHome from '@/assets/Images/imgHome.jpg';
 import Linkedin from '@/assets/Images/Linkedin.png';
 import Instagram from '@/assets/Images/Instagram.png';
 
-
-
-import '@/assets/Css/components/modal.css';
-
 const Modal = ({ isOpen, closeModal }) => {
   return (
     <ReactModal

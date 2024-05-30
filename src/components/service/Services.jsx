@@ -1,9 +1,6 @@
 import React from 'react'
 import Accordion from '@/components/accordion/Accordion';
 
-import '@/assets/Css/components/services.css';
-
-
 export default function Services() {
   return (
     <section className='ServicesContainer' id='Services'>

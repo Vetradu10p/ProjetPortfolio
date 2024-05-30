@@ -1,0 +1,24 @@
+@import './template/template.css';
+
+@import '@/assets/Css/layout/header.css';
+
+
+@import './components/accordion.css';
+@import './components/button.css';
+@import './components/card.css';
+@import './components/contact.css';
+@import './components/contactForm.css';
+@import './components/modal.css';
+@import './components/services.css';
+@import './components/testimonial.css';
+@import './components/testimonialCard.css';
+@import './components/work.css';
+
+
+/* 
+template
+utils
+layout
+components
+page 
+*/

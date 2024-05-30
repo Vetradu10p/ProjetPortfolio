@@ -1,5 +1,4 @@
 import React from 'react'
-import '@/assets/Css/layout/header.css'
 import LogoPortfolio from '@/assets/Images/LogoPortfolio.avif'
 
 

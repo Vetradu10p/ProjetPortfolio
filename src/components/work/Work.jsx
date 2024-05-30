@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Card from '@/components/card/Card';
 import WorksService from '@/_Service/Works.service';
-import '@/assets/Css/components/work.css';
 
 export default function Work() {
   return (

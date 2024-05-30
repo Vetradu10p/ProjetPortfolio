@@ -7,8 +7,6 @@ import ImgContact from "@/assets/Images/Contact.jpg"
 import Linkedin from '@/assets/Images/Linkedin.png';
 import Instagram from '@/assets/Images/Instagram.png';
 
-import '@/assets/Css/components/contact.css';
-
 export default function Contact() {
   return (
     <section className='ContactContainer'>

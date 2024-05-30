@@ -1,8 +1,6 @@
 import React from 'react'
 import TestimonialCard from '@/components/testimonialCard/TestimonialCard';
 
-import '@/assets/Css/components/testimonial.css';
-
 export default function Testimonial() {
   return (
     <section className='SectionTestimonial' id='Testimonial'>

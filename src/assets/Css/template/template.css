@@ -45,18 +45,19 @@ br {
     margin-bottom: 10px;
 }
 
-.App {
+/* .App {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
     width: 100%;
-}
+} */
 
 body {
     height: 100%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 #root {
