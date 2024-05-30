@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from "@/components/button/Button"
 import ContactForm from '@/components/contactForm/ContactForm';
 
 
@@ -30,7 +29,7 @@ export default function Contact() {
               <img className='Instagram' src={Instagram} alt="Logo d'Instagram" />
               </a>          
             </div>
-            < ContactForm />
+            <ContactForm />
         </div>
     </section>
   )
