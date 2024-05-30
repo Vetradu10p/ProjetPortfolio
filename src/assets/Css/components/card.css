@@ -11,7 +11,8 @@
 }
 
 .imgCard {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 300px;
     border-radius: 15px;
     margin-top: 20px;
@@ -48,9 +49,25 @@
     border-radius: 5px;
 }
 
+@media (max-width: 1024px) {
+    .Card {
+        height: 570px;
+        margin-bottom: 50px;
+    }
+
+    .ButtonCard, .ButtonCard:hover {
+        font-size: x-large;
+        margin-top: 10px;
+    }
+
+    .H3Card, .PCard {
+        font-size: x-large;
+    }
+}
 @media (max-width: 768px) {
     .Card {
         height: 570px;
+        margin-bottom: 30px;
     }
 
     .H3Card {

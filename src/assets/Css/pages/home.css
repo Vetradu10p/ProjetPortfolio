@@ -39,23 +39,38 @@
 
 @media (max-width: 1024px) {
     .HomeContainer {
-        margin-top: 10px;
+        flex-direction: column;
         justify-content: center;
+        margin-top: 10px;
         gap: 25px
+    }
+
+    .description {
+        max-width: fit-content;
     }
 
     .PHome {
         margin-top: 40px;
+        text-align: center;
     }
 
+    .H1Home {
+        text-align: center;
+    }
     .ButtonContainer {
+        justify-content: center;
         margin: 50px 0px 30px 0px;
+    }
+
+    .imgHomeContainer {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media (max-width: 768px) {
     .HomeContainer {
-        margin-top: 60px;
+        margin-top: 40px;
         gap: 15px;
         flex-wrap: wrap;
     }
@@ -70,11 +85,11 @@
     }
 
     .ButtonContainer {
-        margin-top: 50px;
+        margin-top: 45px;
         justify-content: center;
     }
 
     .imgHomeContainer img {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 }

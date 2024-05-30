@@ -52,7 +52,7 @@ const ContactForm = () => {
                 />
             </div>
         </div>
-      <div>
+      <div className='MessageContact'>
         <label htmlFor="message"></label>
         <textarea 
         className='MessageForm'

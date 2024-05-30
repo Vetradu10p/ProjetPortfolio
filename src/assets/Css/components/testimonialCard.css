@@ -70,31 +70,29 @@
 }
 
 @media (max-width: 1024px) {
+    .TestimonialCardContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+    .ToggleButton, .ToggleButton:hover {
+        font-size: x-large;
+    }
 }
 
 @media (max-width: 768px) {
     .TestimonialCard {
-        width: 45vw;
+        width: 80%;
     }
 
     .TestimonialCard h3 {
         font-size: xx-large;
     }
 
-    .TestimonialCard h4 {
+    .ToggleButton:hover, .ToggleButton, .PTestimonialCard, .TestimonialCard h4 {
         font-size: x-large;
     }
 
-    .PTestimonialCard {
-        font-size: x-large;
-    }
-
-    .ToggleButton {
-        font-size: x-large;
-    }
-
-    .ToggleButton:hover {
-        font-size: x-large;
+    .TestimonialCardContainer {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

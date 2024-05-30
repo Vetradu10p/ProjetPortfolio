@@ -24,20 +24,40 @@
 @media (max-width: 1024px) {
     .Listework {
         grid-template-columns: repeat(2, 1fr);
+        place-items: end;
+        gap: 0px;
+    }
+
+    .PWork {
+        font-size: x-large;
+        margin: 0px 0px 50px 70px;
+    }
+
+    .Listework {
+        place-items: center;
+    }
+
+    .WorkContainer h2 {
+        width: 100%;
+        margin: 50px 0px 30px 70px;
     }
 }
 
 @media (max-width: 768px) {
     .WorkContainer h2 {
-        margin-bottom: 35px;
+        width: 100%;
+        margin: 20px 0px 25px 0px;
     }
 
     .PWork {
-        margin-bottom: 50px;
+        width: 100%;
+        margin: 0px;
     }
 
     .Listework {
         grid-template-columns: repeat(1, 1fr);
         place-items: center;
+        margin-top: 40px;
+        gap: 0px;
     }
 }

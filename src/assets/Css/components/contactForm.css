@@ -57,19 +57,32 @@
 }
 
 @media (max-width: 1024px) {
-
+    .SubmitButton {
+        font-size: x-large;
+    }
 }
 
 @media (max-width: 768px) {
     .NamemailContainer {
-        margin-top: 15px;
+        margin-top: 25px;
+        flex-direction: column;
     }
 
     #message {
         height: 150px;
     }
 
-    .SubmitButton {
-        margin-top: 0px;
+    .MessageContact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .SubmitButton, .SubmitButton:hover {
+        margin-top: 15px;
+        font-size: larger;
+    }
+
+    .ImgContact {
+        margin-top: 50px;
     }
 }

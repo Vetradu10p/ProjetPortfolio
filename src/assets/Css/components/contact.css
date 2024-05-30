@@ -58,12 +58,54 @@
 
 @media (max-width: 1024px) {
     .PContact {
+        margin-top: 50px;
         margin-left: 40px;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .WriterContactContainer {
+        margin-top: 25px;
+    }
+
+    .TitleButton {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ContactContainer {
+        flex-direction: column-reverse;
+    }
+
+    .logoContactContainer {
+        text-align: center;
+    }
+
+    .Linkedin {
+        width: 55px;
+    }
+
+    .Instagram {
+        width: 46px;
+    }
+
+    .ImgContainer {
+        margin-top: 20px;
+        margin-inline: auto;
+    }
+
+    .CvButton {
+        font-size: large;
+    }
+
+    .TitleButton {
+        font-size: x-large;
     }
 }
 
 @media (max-width: 768px) {
     .ContactContainer {
+        flex-direction: column-reverse;
         gap: 20px;
     }
 
@@ -92,9 +134,20 @@
 
     .logoContactContainer {
         margin-top: 25px;
+        text-align: center;
     }
 
     .TitleButton {
-        margin-top: -15px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .WriterContactContainer {
+        margin-top: 25px;
+    }
+
+    .CvButton {
+        font-size: large;
     }
 }

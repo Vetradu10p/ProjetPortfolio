@@ -16,5 +16,25 @@
 @media (max-width: 1024px) {
     .H2Testimonial {
         margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .SectionTestimonial {
+        padding: 0;
+    }
+
+    .PTestimonial {
+        margin: 0px 0px 55px 70px;
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 768px) {
+    .H2Testimonial {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .PTestimonial {
+        margin: 0px 0px 40px 0px;
     }
 }
