@@ -1,6 +1,7 @@
 @import './template/template.css';
 
 @import '@/assets/Css/layout/header.css';
+@import '@/assets/Css/layout/footer.css';
 
 
 @import './components/accordion.css';

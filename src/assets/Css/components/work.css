@@ -8,12 +8,12 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
-    padding-left: 10px;
+    padding-left: 70px;
 }
 
 .WorkContainer h2 {
     font-size: 35px;
-    margin: 70px 0px 40px 70px;
+    margin: 70px 0px 30px 70px;
 }
 
 .PWork {

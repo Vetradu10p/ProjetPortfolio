@@ -1,6 +1,7 @@
 .ContactContainer {
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .WriterContactContainer {
@@ -12,8 +13,20 @@
     justify-content: space-around;
 }
 
+.H2Contact {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: xx-large;
+}
+
+.PContact {
+    margin-top: 35px;
+    font-size: larger;
+}
+
 .logoContactContainer {
     margin-top: 30px;
+    text-align: center;
 }
 
 .Linkedin {
@@ -33,27 +46,27 @@
 }
 
 .logoContactContainer, .PContact {
-    margin-left: 70px;
+    margin-left: 55px;
 }
 
 .CvButton {
-    margin-top: 15px;
     padding: 10px 20px;
     background-color: whitesmoke;
     color: #098091;
     border: solid #098091;
     border-radius: 5px;
     text-decoration: none;
+    font-size: larger;
 }
 
 .CvButton:hover {
-    margin-top: 15px;
     padding: 10px 20px;
     background-color: #27272a;
     color: #098091;
     border: solid #098091;
     border-radius: 5px;
     text-decoration: none;
+    font-size: larger;
 }
 
 @media (max-width: 1024px) {

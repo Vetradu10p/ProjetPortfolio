@@ -6,7 +6,8 @@
   .AccordionContainer {
     display: flex;
     align-items: flex-start;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
   }
   
   .accordion {

@@ -25,9 +25,13 @@
 .Headercontainer ul {
     display: flex;
     gap: 20px;
-    font-size: x-large;
+    font-size: xx-large;
     list-style: none;
     text-decoration: none;
+}
+
+.Headercontainer li {
+    margin-top: 15px;
 }
 
 .lastli {
