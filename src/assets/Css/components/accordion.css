@@ -70,8 +70,7 @@
 
 @media (max-width: 768px) {
   .AccordionContainer {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px 0px 30px 5px;
   }
 
 

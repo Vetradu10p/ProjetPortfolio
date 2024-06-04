@@ -73,7 +73,9 @@
 
 @media (max-width: 1024px) {
     .TestimonialCardContainer {
+        width: auto;
         grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 50px;
     }
 
     .ToggleButton, .ToggleButton:hover {

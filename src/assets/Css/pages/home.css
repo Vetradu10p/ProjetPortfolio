@@ -52,6 +52,7 @@
     .PHome {
         margin-top: 40px;
         text-align: center;
+        padding: 0 15px;
     }
 
     .H1Home {
@@ -82,6 +83,7 @@
 
     .PHome {
         margin-top: 20px;
+        padding: 0 25px;
     }
 
     .ButtonContainer {

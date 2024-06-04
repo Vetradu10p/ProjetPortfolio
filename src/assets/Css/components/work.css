@@ -45,19 +45,21 @@
 
 @media (max-width: 768px) {
     .WorkContainer h2 {
-        width: 100%;
-        margin: 20px 0px 25px 0px;
+        width: auto;
+        margin: 20px 0px 25px 25px;
     }
 
     .PWork {
-        width: 100%;
+        width: auto;
         margin: 0px;
+        margin-left: 25px;
     }
 
     .Listework {
         grid-template-columns: repeat(1, 1fr);
         place-items: center;
         margin-top: 40px;
+        padding-left: 0px;
         gap: 0px;
     }
 }

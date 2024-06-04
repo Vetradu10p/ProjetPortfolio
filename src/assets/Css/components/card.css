@@ -58,7 +58,7 @@
 
     .ButtonCard, .ButtonCard:hover {
         font-size: x-large;
-        margin-top: 10px;
+        margin-top: 25px;
     }
 
     .H3Card, .PCard {
@@ -83,7 +83,7 @@
     }
 
     .ButtonCard {
-        margin-top: 5px;
+        margin-top: 25px;
         font-size: x-large;
     }
 }

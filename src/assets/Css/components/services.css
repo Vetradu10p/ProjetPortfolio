@@ -59,4 +59,8 @@
     .ImageContainer img {
         max-width: 550px;
     }
+
+    .H2Services, .PServices {
+        margin-left: 25px;
+    }
 }

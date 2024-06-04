@@ -71,7 +71,7 @@
 
 @media (max-width: 1024px) {
     .PContact {
-        margin-top: 50px;
+        margin-top: 40px;
         margin-left: 40px;
         text-align: center;
         font-size: x-large;
@@ -107,7 +107,8 @@
         margin-inline: auto;
     }
 
-    .CvButton {
+    .CvButton, .CvButton:hover {
+        margin-top: 25px;
         font-size: large;
     }
 
@@ -125,11 +126,13 @@
     .ImgContact {
         width: 300px;
         height: 500px;
-        margin-left: 75px;
+        margin-left: 80px;
     }
 
     .PContact {
-        margin-left: 25px;
+        margin-top: 5px;
+        margin-left: 0;
+        padding: 0 25px;
         font-size: larger;
     }
 
@@ -139,10 +142,6 @@
 
     .Instagram {
         width: 32px;
-    }
-
-    .PContact {
-        margin-top: 5px;
     }
 
     .logoContactContainer {
