@@ -1,2 +1,7 @@
 [[plugins]]
   package = "@netlify/plugin-emails"
+  
+[[redirects]]
+  from = "/public/*"
+  to = "/public/:splat"
+  status = 200
