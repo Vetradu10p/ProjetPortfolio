@@ -14,7 +14,7 @@
     },
     {
         "url":"https://main--stellar-pudding-321604.netlify.app/",
-        "cover": "./public/Assets/Images/React.png",
+        "cover": "/Assets/Images/React.png",
         "title": "React.Js",
         "description": "J'ai créé une application web de location immobilière."
     }
