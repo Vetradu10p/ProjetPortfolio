@@ -88,3 +88,21 @@
         margin-top: 50px;
     }
 }
+
+@media (max-width: 480px) {
+    #name, #email {
+        width: calc(100% - 10px);
+    }
+
+    #message {
+        height: 150px;
+    }
+
+    .SubmitButton {
+        font-size: large;
+    }
+
+    .NamemailContainer {
+        flex-direction: column;
+    }
+}

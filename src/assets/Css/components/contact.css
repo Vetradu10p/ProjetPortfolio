@@ -163,3 +163,61 @@
         font-size: large;
     }
 }
+
+@media (max-width: 480px) {
+    .ContactContainer {
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .WriterContactContainer {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .TitleButton {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .H2Contact {
+        font-size: x-large;
+        margin-top: 10px;
+    }
+
+    .PContact {
+        margin: 0;
+        padding: 0 10px;
+        font-size: medium;
+    }
+
+    .logoContactContainer {
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .ImgContact {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        margin: 0px auto 35px auto;
+        display: flex;
+    }
+
+    .Linkedin {
+        width: 25px;
+    }
+
+    .Instagram {
+        width: 20px;
+    }
+
+    .CvButton, .CvButton:hover {
+        font-size: medium;
+        margin-top: 20px;
+    }
+}

@@ -59,3 +59,23 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 480px) {
+    .Headercontainer {
+        width: 100%;
+        max-width: 480px;
+        padding: 10px;
+    }
+
+    .Headercontainer ul {
+        width: 100%;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .Headercontainer li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}

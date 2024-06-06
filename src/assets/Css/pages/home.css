@@ -95,3 +95,49 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .HomeContainer {
+        width: 100%;
+        max-width: 480px;
+        padding: 0 10px;
+    }
+
+    .description, .imgHomeContainer, .imgHomeContainer img {
+        max-width: 100%;
+    }
+
+    .H1Home {
+        margin-top: 20px; 
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .PHome {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .ButtonContainer {
+        margin-top: 30px;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+    }
+
+    .imgHomeContainer {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 100%; 
+    }
+
+    .imgHomeContainer img {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

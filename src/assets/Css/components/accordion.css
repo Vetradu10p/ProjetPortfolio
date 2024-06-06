@@ -78,3 +78,45 @@
     padding: 10px;
   }
 }
+
+@media (max-width: 480px) {
+  .app {
+      margin: 10px;
+  }
+  .AccordionContainer {
+      margin: 10px 0; 
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .accordion {
+      margin-top: 50px; 
+      margin-right: 0; 
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  .AccordionTitle {
+      font-size: larger;
+      padding: 15px;
+  }
+
+  .AccordionContent {
+      font-size: medium;
+      padding: 10px;
+  }
+
+  .AccordionContent p {
+    margin-top: 15px;
+  }
+
+  .ImageContainer {
+      max-width: 100%;
+      padding: 0 10px;
+  }
+
+  .ImageContainer img {
+      max-width: 100%;
+      height: auto;
+  }
+}
